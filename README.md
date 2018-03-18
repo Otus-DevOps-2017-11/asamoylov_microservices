@@ -57,3 +57,7 @@ gcloud compute firewall-rules create reddit-app \
 ```
 7. Зарегистрировался в "Docker hub"
 8. Загрузил образ на docker hub
+
+## HW16
+
+пройдены все основные пункты в соответствии с заданиями.

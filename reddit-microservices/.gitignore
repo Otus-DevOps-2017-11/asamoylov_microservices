@@ -3,5 +3,3 @@ prometheus/
 
 ## python specific
 *.pyc
-
-docker-compose.yml

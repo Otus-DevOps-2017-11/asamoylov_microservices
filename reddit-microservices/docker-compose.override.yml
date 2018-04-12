@@ -1,0 +1,18 @@
+version:  '3.3'
+services:
+  ui:
+    command: ["puma", "--debug", "-w", "2"]
+    volumes:
+      - /reddit_app/ui:/app
+  post:
+    volumes:
+      - /reddit_app/post_py:/app
+
+  comment:
+    command: ["puma", "--debug", "-w", "2"]
+    volumes:
+      - /reddit_app/comment:/app
+
+
+volumes:
+  reddit_app:

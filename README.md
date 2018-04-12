@@ -66,3 +66,19 @@ gcloud compute firewall-rules create reddit-app \
 1. Выполнены все действия в соответствии с заданиями в Д.З
 2. Имя проекта можно изменить в переменной COMPOSE_PROJECT_NAME, для теста она используется в .env файле
 3. Добавлен файл docker-compose.override.yml в соответствии с второй задачей.
+
+## HW19
+1. создал ВМ.
+2. Установил требуемый софт: 
+```
+# curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# add-apt-repository "deb https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+# apt-get update
+# apt-get install docker-ce docker-compose
+```
+
+3. Установил gitLab на машине.
+4. В соответствии с Д.З провёл настройку.
+5. В репозиторий добавлен файл .gitlab-ci.yml с определением этапов Pipeline
+Определены Jobs для этапов.
+6. Выполнил все задания кроме *
